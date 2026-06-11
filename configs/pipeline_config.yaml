@@ -1,0 +1,140 @@
+# ============================================================
+# JugaadReasoning-1K Pipeline Configuration
+# ============================================================
+
+# --- Data Pipeline ---
+data:
+  seed_target_count: 100
+  domain_distribution:
+    agriculture: 30
+    healthcare: 20
+    construction: 20
+    street_vending: 30
+  mutations_per_seed: 10
+  total_benchmark_size: 1000  # seed_target_count * mutations_per_seed
+
+  # Paths (relative to project root)
+  paths:
+    raw_data: "data/raw"
+    seeds: "data/seeds"
+    mutations: "data/mutations"
+    benchmark: "data/benchmark"
+    results: "data/results"
+
+# --- Constraint Parameter Space ---
+constraints:
+  financial:
+    - "₹0 budget"
+    - "₹50 budget"
+    - "₹200 budget"
+  environmental:
+    - "45°C Heatwave"
+    - "Monsoon Flash Flood"
+    - "Dust Storm/Arid Air"
+  infrastructural:
+    - "Total Grid Outage"
+    - "No Internet/Cell Signal"
+    - "No Motorized Transport Access"
+
+# --- Scraper Settings ---
+scrapers:
+  nif_pdf:
+    enabled: true
+    pdf_directory: "data/raw/nif_pdfs"
+  nif_web:
+    enabled: true
+    base_url: "https://innovation.nif.org.in"
+    rate_limit_seconds: 2.0
+    max_pages: 500
+  honeybee:
+    enabled: true
+    base_url: "https://sristi.org/hbnew"
+    rate_limit_seconds: 2.0
+  youtube:
+    enabled: false  # Requires YOUTUBE_API_KEY
+    channels:
+      - "UCIndianFarmer"
+      - "UCCreativeScienceOfficial"
+      - "UCPalleSrujana"
+    max_videos_per_channel: 100
+
+# --- Evaluation Settings ---
+eval:
+  temperature: 0.0
+  max_tokens: 1024
+  concurrency: 5
+  checkpoint_every: 10  # Save progress every N completions
+  dry_run: false
+
+  # Judge configuration
+  judge:
+    provider: "openai"
+    model: "gpt-4o"
+    temperature: 0.0
+    max_tokens: 512
+    kappa_threshold: 0.80  # Minimum Cohen's Kappa for judge validity
+    calibration_sample_size: 100
+
+# --- Model Registry ---
+models:
+  frontier:
+    - name: "gpt-4o"
+      provider: "openai"
+      model_id: "gpt-4o"
+      max_tokens: 1024
+    - name: "gemini-1.5-pro"
+      provider: "google"
+      model_id: "gemini-1.5-pro"
+      max_tokens: 1024
+    - name: "claude-3.5-sonnet"
+      provider: "anthropic"
+      model_id: "claude-sonnet-4-20250514"
+      max_tokens: 1024
+
+  open_weights:
+    - name: "llama-3-70b"
+      provider: "openai"  # Via Together/Fireworks OpenAI-compatible endpoint
+      model_id: "meta-llama/Llama-3-70b-chat-hf"
+      api_base: "https://api.together.xyz/v1"
+      api_key_env: "TOGETHER_API_KEY"
+      max_tokens: 1024
+    - name: "mistral-large"
+      provider: "openai"  # Mistral uses OpenAI-compatible API
+      model_id: "mistral-large-latest"
+      api_base: "https://api.mistral.ai/v1"
+      api_key_env: "FIREWORKS_API_KEY"
+      max_tokens: 1024
+    - name: "deepseek-v3"
+      provider: "openai"  # DeepSeek uses OpenAI-compatible API
+      model_id: "deepseek-chat"
+      api_base: "https://api.deepseek.com/v1"
+      api_key_env: "DEEPSEEK_API_KEY"
+      max_tokens: 1024
+
+  indic_native:
+    - name: "krutrim"
+      provider: "openai"
+      model_id: "krutrim-instruct"
+      api_base: "https://api.olakrutrim.com/v1"
+      api_key_env: "KRUTRIM_API_KEY"
+      max_tokens: 1024
+    - name: "tamil-llama"
+      provider: "vllm"
+      model_id: "abhinand/tamil-llama-7b-instruct-v0.2"
+      max_tokens: 1024
+    - name: "airavata"
+      provider: "vllm"
+      model_id: "ai4bharat/Airavata"
+      max_tokens: 1024
+
+# --- Visualization Settings ---
+plots:
+  style: "science"
+  dpi: 300
+  formats:
+    - "pdf"
+    - "png"
+  output_dir: "plots"
+  figsize_double_column: [7.0, 4.0]
+  figsize_single_column: [3.5, 2.5]
+  colorblind_safe: true

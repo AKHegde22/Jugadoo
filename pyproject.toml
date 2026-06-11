@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jugaad-bench"
+version = "0.1.0"
+description = "JugaadReasoning-1K: Constraint-Satisfying Resource-Substitution Benchmark for LLM Evaluation"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.11"
+authors = [
+    {name = "Jugadoo Research Team"}
+]
+
+dependencies = [
+    # === Core ===
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+    "rich>=13.0",
+
+    # === Scraping & Data Extraction ===
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "pdfplumber>=0.11",
+    "youtube-transcript-api>=0.6",
+
+    # === LLM Provider SDKs ===
+    "openai>=1.30",
+    "anthropic>=0.30",
+    "google-genai>=1.0",
+
+    # === LLM Tooling ===
+    "instructor>=1.0",
+    "tenacity>=8.2",
+    "aiolimiter>=1.1",
+    "tiktoken>=0.7",
+
+    # === Evaluation Metrics ===
+    "scikit-learn>=1.4",
+
+    # === Visualization ===
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "SciencePlots>=2.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.4",
+]
+vllm = [
+    "vllm>=0.4",
+    "transformers>=4.40",
+    "torch>=2.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
