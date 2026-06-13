@@ -59,14 +59,20 @@ async def run_benchmark(args: argparse.Namespace) -> None:
         problems = problems[:args.limit]
         console.print(f"[dim]Limited to {args.limit} problems[/]")
 
-    # Filter models if specified
     all_model_configs = config.models.all_models
     if args.models:
         all_model_configs = [m for m in all_model_configs if m.name in args.models]
         if not all_model_configs:
             console.print(f"[bold red]No matching models found for: {args.models}[/]")
             available = [m.name for m in config.models.all_models]
-            console.print(f"[dim]Available models: {available}[/]")
+        # Override the config to only include the requested models so we don't init others
+        config.models.frontier = [m for m in config.models.frontier if m.name in args.models]
+        config.models.open_weights = [m for m in config.models.open_weights if m.name in args.models]
+        config.models.indic_native = [m for m in config.models.indic_native if m.name in args.models]
+        
+        all_model_configs = config.models.all_models
+        if not all_model_configs:
+            console.print(f"[bold red]No matching models found for: {args.models}[/]")
             return
 
     console.print(f"[bold]Models to evaluate: {[m.name for m in all_model_configs]}[/]")
@@ -90,15 +96,15 @@ async def run_benchmark(args: argparse.Namespace) -> None:
         table.add_column("Est. Cost (USD)", justify="right", style="bold")
 
         total_cost = 0.0
-        for est in estimates:
+        for model_name, est in estimates.items():
             table.add_row(
-                est["model"],
-                est["format"],
-                f"{est['input_tokens']:,}",
-                f"{est['output_tokens']:,}",
-                f"${est['cost']:.2f}",
+                model_name,
+                "mcq + opengen",
+                f"{est['mcq']['total_input_tokens'] + est['opengen']['total_input_tokens']:,}",
+                f"{est['mcq']['est_output_tokens'] + est['opengen']['est_output_tokens']:,}",
+                f"${est['total_est_cost_usd']:.4f}",
             )
-            total_cost += est["cost"]
+            total_cost += est["total_est_cost_usd"]
 
         table.add_section()
         table.add_row("TOTAL", "", "", "", f"${total_cost:.2f}", style="bold red")

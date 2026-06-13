@@ -140,14 +140,25 @@ class OpenAIProvider(BaseLLMProvider):
             messages.append({"role": "system", "content": system_prompt})
         messages.append({"role": "user", "content": prompt})
 
+        kwargs: dict[str, Any] = {
+            "model": self.model_id,
+            "messages": messages,
+            "temperature": temperature,
+        }
+        
+        # o1/o3 and gpt-5.5 models don't support max_tokens, they use max_completion_tokens
+        # They also don't support temperature=0.0 (must be 1 or omitted)
+        if any(m in self.model_id for m in ("o1", "o3", "gpt-5.5")):
+            kwargs["max_completion_tokens"] = max_tokens
+            kwargs.pop("temperature", None)
+        else:
+            kwargs["max_tokens"] = max_tokens
+        
         t0 = time.perf_counter()
         response = await rate_limited_call(
             self.provider_name,
             self._client.chat.completions.create,
-            model=self.model_id,
-            messages=messages,
-            temperature=temperature,
-            max_tokens=max_tokens,
+            **kwargs
         )
         latency_ms = (time.perf_counter() - t0) * 1000
 

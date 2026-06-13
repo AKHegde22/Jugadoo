@@ -4,14 +4,14 @@
 
 # --- Data Pipeline ---
 data:
-  seed_target_count: 5
+  seed_target_count: 45
   domain_distribution:
-    agriculture: 2
-    healthcare: 1
-    construction: 1
-    street_vending: 1
-  mutations_per_seed: 2
-  total_benchmark_size: 10  # seed_target_count * mutations_per_seed
+    agriculture: 15
+    healthcare: 10
+    construction: 10
+    street_vending: 10
+  mutations_per_seed: 10
+  total_benchmark_size: 450  # seed_target_count * mutations_per_seed
 
   # Paths (relative to project root)
   paths:
@@ -78,6 +78,10 @@ eval:
 # --- Model Registry ---
 models:
   frontier:
+    - name: "gpt-5.5"
+      provider: "openai"
+      model_id: "gpt-5.5"
+      max_tokens: 1024
     - name: "gpt-4o"
       provider: "openai"
       model_id: "gpt-4o"
