@@ -76,9 +76,8 @@ async def run_scrapers(args: argparse.Namespace) -> None:
                 scraper_config = config.scrapers.nif_web if config.scrapers and config.scrapers.nif_web else {}
                 scraper = NIFWebScraper(
                     base_url=scraper_config.get("base_url", "https://innovation.nif.org.in"),
-                    rate_limit=scraper_config.get("rate_limit_seconds", 2.0),
+                    rate_limit_seconds=scraper_config.get("rate_limit_seconds", 2.0),
                     max_pages=args.max_pages or scraper_config.get("max_pages", 500),
-                    cache_dir=raw_dir / "nif_web",
                 )
                 cases = await scraper.scrape()
                 all_cases.extend(cases)
@@ -97,8 +96,7 @@ async def run_scrapers(args: argparse.Namespace) -> None:
                 scraper_config = config.scrapers.honeybee if config.scrapers and config.scrapers.honeybee else {}
                 scraper = HoneyBeeScraper(
                     base_url=scraper_config.get("base_url", "https://sristi.org/hbnew"),
-                    rate_limit=scraper_config.get("rate_limit_seconds", 2.0),
-                    cache_dir=raw_dir / "honeybee",
+                    rate_limit_seconds=scraper_config.get("rate_limit_seconds", 2.0),
                 )
                 cases = await scraper.scrape()
                 all_cases.extend(cases)
@@ -118,7 +116,6 @@ async def run_scrapers(args: argparse.Namespace) -> None:
                 scraper = YouTubeScraper(
                     channels=scraper_config.get("channels", []),
                     max_videos_per_channel=scraper_config.get("max_videos_per_channel", 100),
-                    cache_dir=raw_dir / "youtube",
                 )
                 cases = await scraper.scrape()
                 all_cases.extend(cases)

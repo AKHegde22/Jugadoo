@@ -76,11 +76,11 @@ async def run_benchmark(args: argparse.Namespace) -> None:
         config.eval.dry_run = True
 
     # Initialize runner
-    runner = BenchmarkRunner(config=config, results_dir=results_dir)
+    runner = BenchmarkRunner(config=config)
 
     if args.dry_run:
         console.print("\n[bold yellow]DRY RUN — estimating costs without API calls[/]\n")
-        estimates = runner.dry_run(problems=problems, model_configs=all_model_configs)
+        estimates = runner.dry_run(problems=problems)
 
         table = Table(title="Cost Estimation")
         table.add_column("Model", style="cyan")
@@ -119,9 +119,6 @@ async def run_benchmark(args: argparse.Namespace) -> None:
     all_completions = await runner.run_all(
         problems=problems,
         model_configs=all_model_configs,
-        formats=formats,
-        resume=args.resume,
-        console=console,
     )
 
     # Save summary

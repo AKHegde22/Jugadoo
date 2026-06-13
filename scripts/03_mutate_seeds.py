@@ -84,7 +84,10 @@ async def run_mutations(args: argparse.Namespace) -> None:
         return
 
     # Run mutations
-    mutations = await engine.mutate_all(seeds=seeds, console=console)
+    mutations = await engine.generate_matrix(
+        seeds=seeds,
+        mutations_per_seed=config.data.mutations_per_seed,
+    )
 
     # Save mutation matrix
     output_path = mutations_dir / "mutation_matrix_1000.json"

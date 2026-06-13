@@ -1,0 +1,47 @@
+[
+  {
+    "source": "manual",
+    "url_or_path": "manual/mitticool",
+    "raw_text": "Title: MittiCool Refrigerator\nInnovator: Mansukhbhai Prajapati\nLocation: Gujarat\nDescription: A natural refrigerator made entirely from clay to store vegetables and fruits and keep water cool. It uses the principle of evaporative cooling. The top chamber stores water, which slowly drips down the sides, evaporating and cooling the lower chamber where food is kept. It requires no electricity and preserves food for several days.",
+    "title": "MittiCool Refrigerator",
+    "innovator_name": "Mansukhbhai Prajapati",
+    "location": "Gujarat",
+    "category": "food-processing"
+  },
+  {
+    "source": "manual",
+    "url_or_path": "manual/bullet-santi",
+    "raw_text": "Title: Bullet Santi\nInnovator: Mansukhbhai Jagani\nLocation: Amreli, Gujarat\nDescription: A multipurpose farming machine developed by modifying a Royal Enfield Bullet motorcycle. The rear wheel is removed and replaced with an attachment carrying a toolbar for ploughing, weeding, and sowing. It is highly cost-effective and fuel-efficient for small and marginal farmers who cannot afford traditional tractors.",
+    "title": "Bullet Santi",
+    "innovator_name": "Mansukhbhai Jagani",
+    "location": "Amreli, Gujarat",
+    "category": "agriculture"
+  },
+  {
+    "source": "manual",
+    "url_or_path": "manual/bamboo-windmill",
+    "raw_text": "Title: Bamboo Windmill for Water Pumping\nInnovator: Mehtar Hussain and Mushtaq Ahmad\nLocation: Assam\nDescription: A low-cost windmill made primarily from locally available bamboo. It is used to pump water from shallow wells for irrigating small agricultural plots during the dry winter season. The blades and the structural tower are made of split bamboo, while a simple mechanical linkage transfers the rotary motion to a hand pump mechanism.",
+    "title": "Bamboo Windmill for Water Pumping",
+    "innovator_name": "Mehtar Hussain and Mushtaq Ahmad",
+    "location": "Assam",
+    "category": "energy"
+  },
+  {
+    "source": "manual",
+    "url_or_path": "manual/pedal-washing-machine",
+    "raw_text": "Title: Pedal-Powered Washing Machine\nInnovator: Remya Jose\nLocation: Kerala\nDescription: A manual washing machine that is operated by pedaling a stationary bicycle mechanism. An aluminum cylinder is housed inside a larger iron mesh cylinder. Pedaling rotates the inner cylinder to wash and spin-dry clothes. It requires no electricity and provides physical exercise while doing laundry.",
+    "title": "Pedal-Powered Washing Machine",
+    "innovator_name": "Remya Jose",
+    "location": "Kerala",
+    "category": "general-machine"
+  },
+  {
+    "source": "manual",
+    "url_or_path": "manual/tree-climber",
+    "raw_text": "Title: Areca Nut Tree Climber\nInnovator: D. R. Rane\nLocation: Karnataka\nDescription: A simple, mechanical device designed to help farmers safely scale tall and slippery areca nut trees. It features a seat and two loops that grip the tree trunk. The user operates it by alternately moving the upper and lower sections, using body weight to secure the grip, significantly reducing the physical effort and risk of falling.",
+    "title": "Areca Nut Tree Climber",
+    "innovator_name": "D. R. Rane",
+    "location": "Karnataka",
+    "category": "agriculture"
+  }
+]

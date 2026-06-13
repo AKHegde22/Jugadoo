@@ -59,7 +59,7 @@ async def run_formatting(args: argparse.Namespace) -> None:
     # Initialize formatting clerk
     clerk = FormattingClerk(
         model=args.model or "gpt-4o",
-        max_retries=3,
+        max_retries_per_problem=3,
     )
 
     console.print(
@@ -68,9 +68,8 @@ async def run_formatting(args: argparse.Namespace) -> None:
     )
 
     # Format all problems
-    problems = await clerk.format_batch(
-        mutations=mutations,
-        console=console,
+    problems = await clerk.format_all(
+        instances=mutations,
     )
 
     console.print(f"\n[bold green]✓ Formatted {len(problems)} benchmark problems[/]")

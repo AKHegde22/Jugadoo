@@ -103,10 +103,7 @@ def main() -> None:
     generated_files = generate_all_plots(
         results=results,
         output_dir=output_dir,
-        style=style,
-        formats=formats,
         dpi=dpi,
-        colorblind_safe=config.plots.colorblind_safe,
         figsize=tuple(config.plots.figsize_double_column),
     )
 

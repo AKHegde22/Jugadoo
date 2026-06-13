@@ -314,18 +314,20 @@ class BenchmarkRunner:
     async def run_all(
         self,
         problems: list[BenchmarkProblem],
+        model_configs: list[ModelConfig] | None = None,
     ) -> dict[str, dict[str, list[CompletionResult]]]:
         """
         Run MCQ + open-gen for every configured model.
 
         Args:
             problems: Full list of benchmark problems.
+            model_configs: Optional list of specific models to evaluate.
 
         Returns:
             Nested dict: ``{model_name: {"mcq": [...], "opengen": [...]}}``
         """
         all_results: dict[str, dict[str, list[CompletionResult]]] = {}
-        all_models = self.config.models.all_models
+        all_models = model_configs if model_configs is not None else self.config.models.all_models
 
         logger.info(
             "Starting benchmark run: %d models × %d problems",

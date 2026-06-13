@@ -61,22 +61,22 @@ async def extract_seeds(args: argparse.Namespace) -> None:
     # Initialize extractor
     extractor = SeedExtractor(
         model=args.model or "gpt-4o",
-        target_distribution=config.data.domain_distribution,
     )
 
     # Extract seed tuples
     console.print(f"\n[bold cyan]Extracting seed tuples using {extractor.model}...[/]\n")
 
-    candidates = await extractor.extract_batch(
+    candidates = await extractor.extract_seeds(
         raw_cases=raw_cases,
-        progress_console=console,
+        target_count=config.data.seed_target_count,
+        domain_distribution=config.data.domain_distribution,
     )
 
     console.print(f"\n[bold green]✓ Extracted {len(candidates)} seed tuple candidates[/]")
 
-    # Deduplicate
-    unique_candidates = extractor.deduplicate(candidates)
-    console.print(f"[bold]After deduplication: {len(unique_candidates)} unique seeds[/]")
+    # Deduplication is already handled internally by extract_seeds
+    unique_candidates = candidates
+    console.print(f"[bold]Extracted {len(unique_candidates)} unique seeds[/]")
 
     # Show domain distribution
     domain_counts = {}

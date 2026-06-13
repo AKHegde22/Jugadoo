@@ -146,8 +146,7 @@ async def run_judge(args: argparse.Namespace) -> None:
         if clean_completions:
             pairs = [(problem, comp.raw_output) for comp, problem in clean_completions]
             judge_scores = await judge.batch_evaluate(
-                pairs=pairs,
-                console=console,
+                problems=pairs,
             )
 
         # Build auto-fail scores for keyword-guarded responses
