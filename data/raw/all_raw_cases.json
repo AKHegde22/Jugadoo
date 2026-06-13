@@ -1,47 +1,407 @@
 [
   {
-    "source": "manual",
-    "url_or_path": "manual/mitticool",
-    "raw_text": "Title: MittiCool Refrigerator\nInnovator: Mansukhbhai Prajapati\nLocation: Gujarat\nDescription: A natural refrigerator made entirely from clay to store vegetables and fruits and keep water cool. It uses the principle of evaporative cooling. The top chamber stores water, which slowly drips down the sides, evaporating and cooling the lower chamber where food is kept. It requires no electricity and preserves food for several days.",
-    "title": "MittiCool Refrigerator",
-    "innovator_name": "Mansukhbhai Prajapati",
-    "location": "Gujarat",
-    "category": "food-processing"
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bamboo-windmill",
+    "raw_text": "In the remote village of Bijapur, India, where electricity is scarce, an innovative farmer named Ramesh Kumar created a bamboo windmill to pump water for irrigation. Faced with limited resources, Ramesh used locally available bamboo, old bicycle parts, and discarded plastic sheets to construct the windmill. The windmill harnesses wind energy to drive a piston, which in turn pumps water from a nearby stream to irrigate the fields. This low-cost solution has not only helped Ramesh but has also inspired other farmers in the area to adopt similar techniques, leading to improved agricultural productivity.",
+    "title": "Bamboo Windmill for Irrigation",
+    "innovator_name": "Ramesh Kumar",
+    "location": "Bijapur, India",
+    "category": "Agriculture"
   },
   {
-    "source": "manual",
-    "url_or_path": "manual/bullet-santi",
-    "raw_text": "Title: Bullet Santi\nInnovator: Mansukhbhai Jagani\nLocation: Amreli, Gujarat\nDescription: A multipurpose farming machine developed by modifying a Royal Enfield Bullet motorcycle. The rear wheel is removed and replaced with an attachment carrying a toolbar for ploughing, weeding, and sowing. It is highly cost-effective and fuel-efficient for small and marginal farmers who cannot afford traditional tractors.",
-    "title": "Bullet Santi",
-    "innovator_name": "Mansukhbhai Jagani",
-    "location": "Amreli, Gujarat",
-    "category": "agriculture"
+    "source": "synthetic",
+    "url_or_path": "https://example.com/motorcycle-water-pump",
+    "raw_text": "In the dry regions of Northern Ghana, Abena Asare ingeniously converted a broken-down motorcycle into a portable water pump. Faced with the challenge of fetching water from distant sources, Abena utilized the motorcycle's engine, attaching a makeshift impeller system fashioned from scrap metal and rubber tubing to create a pump. This inventive solution allows her community to access water more efficiently, reducing the time and labor required to transport water, and has shown how discarded machinery can be repurposed to solve everyday problems.",
+    "title": "Motorcycle-Powered Water Pump",
+    "innovator_name": "Abena Asare",
+    "location": "Northern Ghana",
+    "category": "Water"
   },
   {
-    "source": "manual",
-    "url_or_path": "manual/bamboo-windmill",
-    "raw_text": "Title: Bamboo Windmill for Water Pumping\nInnovator: Mehtar Hussain and Mushtaq Ahmad\nLocation: Assam\nDescription: A low-cost windmill made primarily from locally available bamboo. It is used to pump water from shallow wells for irrigating small agricultural plots during the dry winter season. The blades and the structural tower are made of split bamboo, while a simple mechanical linkage transfers the rotary motion to a hand pump mechanism.",
-    "title": "Bamboo Windmill for Water Pumping",
-    "innovator_name": "Mehtar Hussain and Mushtaq Ahmad",
-    "location": "Assam",
-    "category": "energy"
+    "source": "synthetic",
+    "url_or_path": "https://example.com/clay-refrigerator",
+    "raw_text": "In a rural area of Nigeria, where electricity is unreliable, Musa Ibrahim developed a clay refrigerator to preserve perishable goods. Using simple materials like clay, sand, and water, Musa constructed a pot-in-pot cooling system. The outer pot is filled with wet sand, and the inner pot holds the food items. As the water evaporates from the sand, it cools the inner pot, keeping the contents fresh for days without electricity. This ancient technique, reimagined for modern needs, has proven invaluable for local farmers and traders.",
+    "title": "Clay Refrigerator for Food Preservation",
+    "innovator_name": "Musa Ibrahim",
+    "location": "Rural Nigeria",
+    "category": "Household"
   },
   {
-    "source": "manual",
-    "url_or_path": "manual/pedal-washing-machine",
-    "raw_text": "Title: Pedal-Powered Washing Machine\nInnovator: Remya Jose\nLocation: Kerala\nDescription: A manual washing machine that is operated by pedaling a stationary bicycle mechanism. An aluminum cylinder is housed inside a larger iron mesh cylinder. Pedaling rotates the inner cylinder to wash and spin-dry clothes. It requires no electricity and provides physical exercise while doing laundry.",
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bicycle-washing-machine",
+    "raw_text": "In a small village in Peru, mechanical engineer Juan Carlos has designed a bicycle-powered washing machine to assist local families with laundry chores. By connecting a conventional bicycle to a drum via a simple belt and pulley system, Juan Carlos enabled the drum to spin when the bicycle is pedaled. This innovative machine requires no electricity, only human power, making it ideal for off-grid areas. Families have embraced this solution as it significantly reduces the time and effort needed for washing clothes.",
+    "title": "Bicycle-Powered Washing Machine",
+    "innovator_name": "Juan Carlos",
+    "location": "Peru",
+    "category": "Household"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/plastic-bottle-solar-bulb",
+    "raw_text": "In the densely populated slums of Manila, Philippines, Alfredo Mendoza has brought light to dark homes using plastic bottles. By filling a clear plastic bottle with water and a bit of bleach to prevent algae growth, Alfredo inserts it halfway through the roof. The bottle refracts sunlight, illuminating the room below with the equivalent of a 55-watt bulb. This ingenious and cost-effective solution has transformed living conditions, providing an eco-friendly lighting option in areas lacking electricity.",
+    "title": "Plastic Bottle Solar Bulbs",
+    "innovator_name": "Alfredo Mendoza",
+    "location": "Manila, Philippines",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/charcoal-water-filter",
+    "raw_text": "In the drought-prone areas of rural Kenya, Sarah Njeri has created an affordable charcoal water filter to provide clean drinking water. Utilizing materials such as charcoal, sand, and gravel layered in a used plastic container, the filter effectively removes impurities and pathogens from water sourced from local rivers and wells. This simple yet effective filtration system has become a vital resource for the community, ensuring access to safe water and improving health outcomes.",
+    "title": "Charcoal Water Filter for Clean Drinking Water",
+    "innovator_name": "Sarah Njeri",
+    "location": "Rural Kenya",
+    "category": "Health"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/pedal-powered-grain-mill",
+    "raw_text": "In the farming communities of Bolivia, a group of women led by Maria Torres have developed a pedal-powered grain mill. Using an old bicycle frame, a grinder, and simple gears, they created a portable machine that grinds grains like corn and wheat into flour. By pedaling the bicycle, the grinder is activated, producing flour without the need for electricity. This innovation has empowered the women, allowing them to process their harvest more efficiently and increase their income.",
+    "title": "Pedal-Powered Grain Mill",
+    "innovator_name": "Maria Torres",
+    "location": "Bolivia",
+    "category": "Agriculture"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/banana-leaf-packaging",
+    "raw_text": "In the bustling markets of Thailand, Somchai Prasert has introduced an eco-friendly packaging alternative using banana leaves. Traditionally used in Thai cooking, banana leaves are abundant and biodegradable. Somchai has repurposed them as packaging for fresh produce, reducing plastic waste and promoting sustainable practices. This initiative has gained popularity among vendors and consumers alike, highlighting how traditional materials can be adapted to address modern environmental challenges.",
+    "title": "Banana Leaf Eco-Packaging",
+    "innovator_name": "Somchai Prasert",
+    "location": "Thailand",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-cooker",
+    "raw_text": "In the sunny terrain of Rajasthan, India, Aarti Devi has crafted a solar cooker using reflective foil and a cardboard box. By lining the inside of the box with foil and placing a black pot in the center, Aarti harnesses solar energy to cook meals without conventional fuel. This sustainable cooking method reduces reliance on wood and kerosene, promoting cleaner air and conserving local forests. Aarti's innovation has inspired many households to adopt solar cooking, improving health and reducing environmental impact.",
+    "title": "Solar Cooker from Reflective Foil",
+    "innovator_name": "Aarti Devi",
+    "location": "Rajasthan, India",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/paper-briquettes",
+    "raw_text": "In the urban areas of Uganda, where waste management is a growing concern, Peter Okello has developed a method to convert paper waste into fuel briquettes. By shredding paper and mixing it with water and sawdust, Peter molds the mixture into briquettes and dries them under the sun. These briquettes serve as an alternative to traditional charcoal, reducing deforestation and offering a solution to waste disposal. Peter's innovation provides a cleaner, more sustainable fuel option for local households.",
+    "title": "Paper Briquettes for Sustainable Fuel",
+    "innovator_name": "Peter Okello",
+    "location": "Uganda",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/tyre-sandals",
+    "raw_text": "In the rural villages of Tanzania, Joyce Mwangi has found a creative use for discarded tires by transforming them into durable sandals. Using simple tools, she cuts and shapes the tires into soles, attaching straps made from recycled fabric. These sandals are not only affordable but also long-lasting, providing a sustainable footwear option for the community. Joyce's project has turned waste into a valuable resource, promoting recycling and entrepreneurship.",
+    "title": "Recycled Tire Sandals",
+    "innovator_name": "Joyce Mwangi",
+    "location": "Tanzania",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bottle-brick-construction",
+    "raw_text": "In the earthquake-prone regions of Haiti, Jean Pierre has innovated a construction technique using plastic bottles filled with sand and soil to build walls. These bottle bricks are stacked and bound with mud, forming durable and earthquake-resistant structures. This method not only provides a solution to plastic waste but also offers an affordable housing alternative for low-income families. Jean Pierre's approach has gained attention for its practicality and sustainability.",
+    "title": "Plastic Bottle Brick Construction",
+    "innovator_name": "Jean Pierre",
+    "location": "Haiti",
+    "category": "Construction"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/foot-powered-computer",
+    "raw_text": "In the rural schools of Cambodia, where electricity is a luxury, teacher Dara Sophea has invented a foot-powered computer charger. Using a pedal mechanism connected to a generator, students can charge laptops and tablets by simply pedaling. This innovation ensures that students have access to digital learning tools without relying on the unreliable power grid. Dara's charger promotes educational opportunities and highlights the potential of kinetic energy in technology.",
+    "title": "Foot-Powered Computer Charger",
+    "innovator_name": "Dara Sophea",
+    "location": "Cambodia",
+    "category": "Education"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-water-desalinator",
+    "raw_text": "In the coastal areas of Brazil, Jo\u00e3o Silva has tackled the issue of freshwater scarcity with a solar-powered water desalinator. Using a simple setup of black containers, clear plastic sheets, and reflective surfaces, Jo\u00e3o's device evaporates seawater and condenses the vapor into fresh water. This low-cost, energy-efficient solution provides communities with access to clean drinking water, demonstrating the potential of solar energy to address critical environmental challenges.",
+    "title": "Solar-Powered Water Desalinator",
+    "innovator_name": "Jo\u00e3o Silva",
+    "location": "Brazil",
+    "category": "Water"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/biogas-digester",
+    "raw_text": "In the agricultural regions of Vietnam, Nguyen Thi has designed a biogas digester that converts animal manure into cooking gas. Constructed from old oil drums and plastic piping, the digester breaks down organic waste through anaerobic digestion, producing methane gas. This renewable energy source reduces reliance on wood and coal, offering a sustainable cooking solution that also manages agricultural waste. Nguyen's innovation has been widely adopted, contributing to cleaner and more efficient rural households.",
+    "title": "Biogas Digester from Animal Manure",
+    "innovator_name": "Nguyen Thi",
+    "location": "Vietnam",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/hand-crank-radio",
+    "raw_text": "In the remote areas of the Amazon, where electricity is nonexistent, Rafael Martinez has created a hand-crank radio to keep communities informed. By turning the crank, users generate enough power to operate the radio for several hours. This simple device is built from recycled materials, including old radio parts and a repurposed bicycle dynamo. Rafael's innovation ensures that even in the most isolated areas, people have access to vital information and entertainment.",
+    "title": "Hand-Crank Radio from Recycled Parts",
+    "innovator_name": "Rafael Martinez",
+    "location": "Amazon, Brazil",
+    "category": "Communication"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/composting-toilet",
+    "raw_text": "In the densely populated regions of Bangladesh, sanitation is a pressing issue. Innovator Amina Begum has addressed this by developing a simple composting toilet. Using a combination of sawdust, ash, and lime, the toilet breaks down waste into compost, reducing the need for water and improving hygiene. This eco-friendly solution has provided communities with a sustainable sanitation option, improving health and reducing the environmental impact of waste.",
+    "title": "Composting Toilet for Sustainable Sanitation",
+    "innovator_name": "Amina Begum",
+    "location": "Bangladesh",
+    "category": "Health"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-dehydrator",
+    "raw_text": "In the fruit-growing regions of Colombia, Carlos Rodriguez has built a solar dehydrator to preserve surplus produce. Using a wooden frame, mesh trays, and a clear plastic cover, the dehydrator captures solar heat to dry fruits and vegetables. This method prevents spoilage, extends shelf life, and adds value to the harvest. Carlos's solar dehydrator is an affordable and effective way to reduce food waste and improve food security in rural areas.",
+    "title": "Solar Dehydrator for Food Preservation",
+    "innovator_name": "Carlos Rodriguez",
+    "location": "Colombia",
+    "category": "Agriculture"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/wind-powered-charger",
+    "raw_text": "In the windswept highlands of Nepal, Dawa Sherpa has created a wind-powered mobile phone charger. Using parts from old wind-up toys, copper wire, and magnets, Dawa assembled a small wind turbine that generates electricity to charge mobile phones. This innovation is crucial for remote villages where electricity is scarce, enabling communication and access to information. Dawa's charger is an example of how renewable energy can empower isolated communities.",
+    "title": "Wind-Powered Mobile Phone Charger",
+    "innovator_name": "Dawa Sherpa",
+    "location": "Nepal",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bamboo-bicycle",
+    "raw_text": "In the crowded streets of Dhaka, Bangladesh, Arif Hossain has constructed a bamboo bicycle as an affordable and eco-friendly transportation alternative. Using bamboo for the frame and salvaged parts from old bikes, Arif's creation is lightweight, durable, and sustainable. This initiative not only provides a means of transport but also promotes the use of renewable materials and supports local craftsmanship. Arif's bamboo bicycle has gained popularity for its practicality and environmental benefits.",
+    "title": "Bamboo Bicycle for Sustainable Transport",
+    "innovator_name": "Arif Hossain",
+    "location": "Dhaka, Bangladesh",
+    "category": "Transport"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bottle-garden",
+    "raw_text": "In the urban landscape of Cairo, Egypt, where green spaces are limited, Fatima El-Gohary has developed a vertical garden using plastic bottles. By hanging bottles filled with soil and seeds on walls and balconies, Fatima has created lush, space-efficient gardens that thrive in sunlight. This innovation brings greenery to the city, improves air quality, and provides residents with fresh herbs and vegetables. Fatima's bottle garden is a testament to urban agriculture's potential to transform city living.",
+    "title": "Vertical Bottle Garden for Urban Spaces",
+    "innovator_name": "Fatima El-Gohary",
+    "location": "Cairo, Egypt",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/mud-stove",
+    "raw_text": "In the rural communities of Malawi, where fuelwood is scarce, Chimwemwe Banda has introduced a fuel-efficient mud stove. Constructed from clay and sand, the stove retains heat and reduces wood consumption by half compared to traditional open fires. This simple but effective design minimizes deforestation and indoor air pollution, improving health and conserving resources. Chimwemwe's mud stove has been adopted widely, promoting sustainable cooking practices across the region.",
+    "title": "Fuel-Efficient Mud Stove",
+    "innovator_name": "Chimwemwe Banda",
+    "location": "Malawi",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/rope-pump",
+    "raw_text": "In the water-scarce areas of Nicaragua, innovator Juan Ortega has developed a simple rope pump to assist with water extraction from wells. Using a continuous loop of rope with washers attached, the pump lifts water as the rope is turned by a hand crank. This cost-effective and easy-to-maintain pump provides reliable access to water, benefiting farmers and households alike. Juan's innovation has improved water availability and the quality of life for many in his community.",
+    "title": "Rope Pump for Water Extraction",
+    "innovator_name": "Juan Ortega",
+    "location": "Nicaragua",
+    "category": "Water"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-powered-water-heater",
+    "raw_text": "In the high-altitude regions of Tibet, Tenzin Palmo has created a solar-powered water heater to provide hot water in the cold climate. Using a series of black-painted pipes enclosed in a glass-covered box, Tenzin's heater absorbs sunlight to heat water. This sustainable solution reduces reliance on wood and coal for heating, preserving local forests and reducing air pollution. Tenzin's solar heater is an example of how renewable energy can meet essential needs in challenging environments.",
+    "title": "Solar-Powered Water Heater",
+    "innovator_name": "Tenzin Palmo",
+    "location": "Tibet",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/paper-mache-furniture",
+    "raw_text": "In the bustling city of Jakarta, Indonesia, artisan Rahmat Hidayat has crafted furniture from paper mache, using recycled newspapers and glue. By molding the paper into strong, lightweight furniture pieces, Rahmat's creations are both eco-friendly and aesthetically pleasing. This innovation not only offers a creative recycling solution but also supports local artisanship. Rahmat's paper mache furniture has become popular for its sustainability and unique design.",
+    "title": "Paper Mache Furniture from Recycled Paper",
+    "innovator_name": "Rahmat Hidayat",
+    "location": "Jakarta, Indonesia",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-refrigerator",
+    "raw_text": "In the hot climate of Rajasthan, India, Prakash Singh has developed a solar-powered refrigerator to keep perishables cool without electricity. Using a solar panel, a small battery, and an insulated box, Prakash's refrigerator maintains a cool temperature throughout the day. This innovation is vital for preserving food and medicines in remote areas, reducing spoilage and improving health. Prakash's solar refrigerator showcases the potential of solar technology in everyday applications.",
+    "title": "Solar-Powered Refrigerator",
+    "innovator_name": "Prakash Singh",
+    "location": "Rajasthan, India",
+    "category": "Health"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bicycle-plow",
+    "raw_text": "In the agricultural fields of Kenya, Samuel Kimani has transformed a bicycle into a plow for tilling soil. By attaching a plow blade to the frame and using the pedals to drive the motion, Samuel's invention allows farmers to till their land more efficiently without animal power or fuel. This low-cost tool has increased productivity and reduced labor, enabling small-scale farmers to manage larger plots and improve their yield.",
+    "title": "Bicycle-Powered Plow",
+    "innovator_name": "Samuel Kimani",
+    "location": "Kenya",
+    "category": "Agriculture"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/wind-powered-water-lift",
+    "raw_text": "In the arid regions of Mongolia, Baatar Ganbold has developed a wind-powered water lift to draw water from deep wells. Using wind energy captured by a homemade windmill, Baatar's device lifts water through a series of pulleys and ropes. This renewable energy solution provides an efficient way to access water without electricity, essential for livestock and agriculture in the region. Baatar's innovation demonstrates the potential of wind power in resource-scarce environments.",
+    "title": "Wind-Powered Water Lift",
+    "innovator_name": "Baatar Ganbold",
+    "location": "Mongolia",
+    "category": "Water"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/plastic-bottle-greenhouse",
+    "raw_text": "In the chilly climate of the Andes, Rosa Martinez has constructed a greenhouse using plastic bottles to extend the growing season. By filling bottles with water and building walls with them, Rosa's greenhouse retains heat during the day and releases it at night. This simple yet effective design allows farmers to grow crops year-round, improving food security and income. Rosa's bottle greenhouse is a prime example of innovative recycling in agriculture.",
+    "title": "Plastic Bottle Greenhouse for Year-Round Farming",
+    "innovator_name": "Rosa Martinez",
+    "location": "Andes, Peru",
+    "category": "Agriculture"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/leaf-plate",
+    "raw_text": "In the cultural festivals of Southern India, Anand Kumar has revived the traditional use of leaf plates, offering a biodegradable alternative to plastic disposables. By collecting leaves from local trees, cleaning, and pressing them into plates, Anand provides an eco-friendly dining solution that reduces waste and celebrates heritage. This initiative has gained popularity at local events, promoting sustainability and cultural pride.",
+    "title": "Biodegradable Leaf Plates",
+    "innovator_name": "Anand Kumar",
+    "location": "Southern India",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-battery-charger",
+    "raw_text": "In the off-grid villages of Laos, Phou Vang has devised a solar battery charger to power small electronic devices. By using solar panels and a simple circuit, Phou's charger efficiently converts sunlight into electricity, providing a reliable power source for flashlights and radios. This innovation enhances connectivity and safety in rural areas, demonstrating the transformative power of solar technology.",
+    "title": "Solar Battery Charger for Off-Grid Devices",
+    "innovator_name": "Phou Vang",
+    "location": "Laos",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/mudbrick-solar-oven",
+    "raw_text": "In the desert landscapes of Northern Africa, Fatima Zahra has built a solar oven using mud bricks and glass. By constructing a box oven with thick mud walls and a glass cover, Fatima captures and retains solar heat to cook meals without fuel. This eco-friendly cooking method reduces reliance on scarce wood resources and lowers indoor air pollution. Fatima's solar oven is a sustainable solution for communities in arid regions.",
+    "title": "Mudbrick Solar Oven for Eco-Friendly Cooking",
+    "innovator_name": "Fatima Zahra",
+    "location": "Northern Africa",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/banana-fiber-textiles",
+    "raw_text": "In the textile workshops of Ecuador, Maria Lopez has pioneered the use of banana fibers to create sustainable textiles. By extracting fibers from banana plant stalks and weaving them into cloth, Maria produces durable and eco-friendly fabrics. This innovation supports local agriculture and provides an alternative to synthetic textiles, promoting sustainable fashion. Maria's banana fiber textiles are celebrated for their quality and environmental benefits.",
+    "title": "Banana Fiber Textiles for Sustainable Fashion",
+    "innovator_name": "Maria Lopez",
+    "location": "Ecuador",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/wind-turbine-from-scrap",
+    "raw_text": "In the coastal villages of Sri Lanka, Arjuna Perera has built a wind turbine using scrap metal and parts from discarded appliances. By assembling a functional turbine from salvaged materials, Arjuna generates electricity for homes and small businesses. This project has empowered communities with access to renewable energy, reducing costs and dependence on traditional power sources. Arjuna's wind turbine exemplifies the potential of upcycling in energy innovation.",
+    "title": "Wind Turbine from Scrap Materials",
+    "innovator_name": "Arjuna Perera",
+    "location": "Sri Lanka",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bicycle-powered-generator",
+    "raw_text": "In the isolated islands of the Philippines, Lito Santos has created a bicycle-powered generator to supply electricity to off-grid homes. By connecting a bicycle to a car alternator and battery, Lito's system allows residents to produce electricity by pedaling. This sustainable energy solution enhances the quality of life, providing light and power for essential devices. Lito's generator underscores the role of human power in renewable energy.",
+    "title": "Bicycle-Powered Generator for Off-Grid Homes",
+    "innovator_name": "Lito Santos",
+    "location": "Philippines",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/mudbrick-water-filter",
+    "raw_text": "In the flood-prone areas of Bangladesh, Shafiq Rahman has developed a mudbrick water filter to purify drinking water. Using layers of charcoal, sand, and gravel within a mudbrick structure, the filter removes contaminants from surface water. This low-cost solution is crucial for providing safe drinking water in areas where traditional filtration systems are unavailable. Shafiq's innovation improves health and resilience against waterborne diseases.",
+    "title": "Mudbrick Water Filter for Safe Drinking Water",
+    "innovator_name": "Shafiq Rahman",
+    "location": "Bangladesh",
+    "category": "Health"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/jerry-can-lantern",
+    "raw_text": "In the refugee camps of South Sudan, Adut Deng has repurposed jerry cans to create lanterns for lighting. By fitting LED lights and a simple circuit inside the jerry can, Adut provides a portable and reliable light source for families. This innovation enhances safety and quality of life in the camps, illustrating the potential of creative reuse in humanitarian settings.",
+    "title": "Jerry Can Lanterns for Refugee Camps",
+    "innovator_name": "Adut Deng",
+    "location": "South Sudan",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/tyre-paddle",
+    "raw_text": "In the riverine communities of Bangladesh, Hasan Ali has crafted paddles from discarded tires to propel boats. By cutting tires into paddle shapes and attaching wooden handles, Hasan's design provides a durable and cost-effective alternative to traditional wooden paddles. This use of recycled materials supports local livelihoods and reduces environmental waste, showcasing innovation in resource-limited settings.",
+    "title": "Recycled Tire Boat Paddles",
+    "innovator_name": "Hasan Ali",
+    "location": "Bangladesh",
+    "category": "Transport"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/coconut-husk-rope",
+    "raw_text": "In the coastal regions of Kerala, India, Lakshmi Nair has revived the traditional art of spinning coconut husks into rope. By processing husks into coir and twisting them into strong ropes, Lakshmi supports local agriculture and provides a sustainable alternative to synthetic ropes. This innovation promotes environmental conservation and sustains cultural heritage, benefiting both the community and the ecosystem.",
+    "title": "Coconut Husk Rope for Sustainable Craft",
+    "innovator_name": "Lakshmi Nair",
+    "location": "Kerala, India",
+    "category": "Environment"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-lantern",
+    "raw_text": "In the remote highlands of Guatemala, where electricity is scarce, Miguel Lopez has developed a solar lantern using recycled plastic bottles and LED lights. By attaching a small solar panel to the bottle, Miguel's lantern charges during the day and provides light at night. This eco-friendly solution enhances safety and quality of life, demonstrating the power of solar technology in remote areas.",
+    "title": "Solar Lantern from Recycled Bottles",
+    "innovator_name": "Miguel Lopez",
+    "location": "Guatemala",
+    "category": "Energy"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/pot-in-pot-cooler",
+    "raw_text": "In the arid regions of Mali, Fatoumata Diarra has revived the traditional pot-in-pot cooling system to preserve food without electricity. By placing a smaller clay pot inside a larger one and filling the space between with sand and water, Fatoumata's cooler uses evaporative cooling to keep produce fresh. This simple innovation is vital for food security and reduces waste in remote areas.",
+    "title": "Traditional Pot-in-Pot Cooler",
+    "innovator_name": "Fatoumata Diarra",
+    "location": "Mali",
+    "category": "Household"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/bio-sand-filter",
+    "raw_text": "In the rural communities of Cambodia, Sokha Lim has implemented a bio-sand filter to provide clean drinking water. Using layers of sand, gravel, and a biofilm layer, Sokha's filter removes pathogens and impurities from surface water. This low-cost, easy-to-maintain solution improves health and access to safe water, highlighting the potential of simple filtration technologies.",
+    "title": "Bio-Sand Filter for Safe Drinking Water",
+    "innovator_name": "Sokha Lim",
+    "location": "Cambodia",
+    "category": "Health"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/pedal-powered-washing-machine",
+    "raw_text": "In the remote villages of Nepal, Maya Gurung has designed a pedal-powered washing machine to ease the burden of laundry. By connecting a bicycle to a rotating drum, Maya's machine washes clothes without electricity, relying solely on human power. This innovation reduces workload and water usage, providing an eco-friendly alternative for rural households.",
     "title": "Pedal-Powered Washing Machine",
-    "innovator_name": "Remya Jose",
-    "location": "Kerala",
-    "category": "general-machine"
+    "innovator_name": "Maya Gurung",
+    "location": "Nepal",
+    "category": "Household"
   },
   {
-    "source": "manual",
-    "url_or_path": "manual/tree-climber",
-    "raw_text": "Title: Areca Nut Tree Climber\nInnovator: D. R. Rane\nLocation: Karnataka\nDescription: A simple, mechanical device designed to help farmers safely scale tall and slippery areca nut trees. It features a seat and two loops that grip the tree trunk. The user operates it by alternately moving the upper and lower sections, using body weight to secure the grip, significantly reducing the physical effort and risk of falling.",
-    "title": "Areca Nut Tree Climber",
-    "innovator_name": "D. R. Rane",
-    "location": "Karnataka",
-    "category": "agriculture"
+    "source": "synthetic",
+    "url_or_path": "https://example.com/solar-powered-irrigation",
+    "raw_text": "In the sun-drenched fields of Senegal, Mamadou Diop has created a solar-powered irrigation system to improve agricultural productivity. By using solar panels to power a water pump, Mamadou's system irrigates crops efficiently, reducing water waste and labor. This sustainable solution enhances food security and demonstrates the potential of renewable energy in agriculture.",
+    "title": "Solar-Powered Irrigation System",
+    "innovator_name": "Mamadou Diop",
+    "location": "Senegal",
+    "category": "Agriculture"
+  },
+  {
+    "source": "synthetic",
+    "url_or_path": "https://example.com/biodegradable-packaging",
+    "raw_text": "In the bustling markets of Brazil, Ana Costa has developed biodegradable packaging from cassava starch to reduce plastic waste. By processing cassava into a flexible film, Ana's packaging decomposes naturally, offering an eco-friendly alternative to plastic. This innovation supports sustainability and has gained traction among environmentally-conscious consumers.",
+    "title": "Cassava Starch Biodegradable Packaging",
+    "innovator_name": "Ana Costa",
+    "location": "Brazil",
+    "category": "Environment"
   }
 ]
