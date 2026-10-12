@@ -1,0 +1,482 @@
+[
+  {
+    "seed_id": "SEED_001",
+    "domain": "agriculture",
+    "target_goal": "Pump water for irrigation in areas with scarce electricity resources.",
+    "core_physics_mechanism": "Wind energy conversion to mechanical energy to drive a piston pump.",
+    "historical_materials_used": [
+      "bamboo",
+      "old bicycle parts",
+      "discarded plastic sheets"
+    ],
+    "source_reference": "synthetic, Bamboo Windmill for Irrigation, https://example.com/bamboo-windmill"
+  },
+  {
+    "seed_id": "SEED_002",
+    "domain": "agriculture",
+    "target_goal": "Fetch water from distant sources without manual labor.",
+    "core_physics_mechanism": "Conversion of rotational energy from a motorcycle engine to drive an impeller for water pumping.",
+    "historical_materials_used": [
+      "motorcycle engine",
+      "scrap metal",
+      "rubber tubing"
+    ],
+    "source_reference": "synthetic, https://example.com/motorcycle-water-pump"
+  },
+  {
+    "seed_id": "SEED_003",
+    "domain": "agriculture",
+    "target_goal": "Preserve perishable goods without relying on electricity in areas with unreliable power supply.",
+    "core_physics_mechanism": "Evaporative cooling through water evaporation from wet sand surrounding an inner pot.",
+    "historical_materials_used": [
+      "clay",
+      "sand",
+      "water"
+    ],
+    "source_reference": "synthetic, https://example.com/clay-refrigerator"
+  },
+  {
+    "seed_id": "SEED_004",
+    "domain": "agriculture",
+    "target_goal": "Grind grains like corn and wheat into flour without using electricity.",
+    "core_physics_mechanism": "Mechanical energy from pedaling is transferred to a grinder via gears.",
+    "historical_materials_used": [
+      "bicycle frame",
+      "grinder",
+      "gears"
+    ],
+    "source_reference": "synthetic, https://example.com/pedal-powered-grain-mill"
+  },
+  {
+    "seed_id": "SEED_005",
+    "domain": "agriculture",
+    "target_goal": "Cook meals without using conventional fuel sources like wood or kerosene.",
+    "core_physics_mechanism": "Solar energy concentration and heat absorption using reflective surfaces.",
+    "historical_materials_used": [
+      "reflective foil",
+      "cardboard box",
+      "black pot"
+    ],
+    "source_reference": "synthetic, https://example.com/solar-cooker"
+  },
+  {
+    "seed_id": "SEED_006",
+    "domain": "agriculture",
+    "target_goal": "Convert animal manure into a usable cooking gas to reduce reliance on wood and coal.",
+    "core_physics_mechanism": "Anaerobic digestion of organic waste to produce methane gas.",
+    "historical_materials_used": [
+      "old oil drums",
+      "plastic piping",
+      "animal manure"
+    ],
+    "source_reference": "synthetic, https://example.com/biogas-digester"
+  },
+  {
+    "seed_id": "SEED_007",
+    "domain": "agriculture",
+    "target_goal": "Preserve surplus produce by drying to prevent spoilage and extend shelf life.",
+    "core_physics_mechanism": "Solar heat capture and convection for moisture removal.",
+    "historical_materials_used": [
+      "wooden frame",
+      "mesh trays",
+      "clear plastic cover"
+    ],
+    "source_reference": "synthetic, https://example.com/solar-dehydrator"
+  },
+  {
+    "seed_id": "SEED_008",
+    "domain": "agriculture",
+    "target_goal": "Create green spaces in urban areas with limited land availability.",
+    "core_physics_mechanism": "Utilizes vertical space for plant growth by hanging containers filled with soil.",
+    "historical_materials_used": [
+      "plastic bottles",
+      "soil",
+      "seeds"
+    ],
+    "source_reference": "synthetic, https://example.com/bottle-garden"
+  },
+  {
+    "seed_id": "SEED_009",
+    "domain": "agriculture",
+    "target_goal": "Extract water from wells in water-scarce areas without using electric pumps.",
+    "core_physics_mechanism": "Mechanical lifting of water using a continuous loop of rope with washers.",
+    "historical_materials_used": [
+      "rope",
+      "washers",
+      "hand crank"
+    ],
+    "source_reference": "synthetic, https://example.com/rope-pump"
+  },
+  {
+    "seed_id": "SEED_010",
+    "domain": "agriculture",
+    "target_goal": "Tilling soil efficiently without the use of animal power or fuel.",
+    "core_physics_mechanism": "Mechanical force transmission from pedals to plow blade via bicycle frame.",
+    "historical_materials_used": [
+      "bicycle",
+      "plow blade",
+      "metal frame"
+    ],
+    "source_reference": "synthetic, https://example.com/bicycle-plow"
+  },
+  {
+    "seed_id": "SEED_011",
+    "domain": "agriculture",
+    "target_goal": "Access water from deep wells without using electricity in arid regions.",
+    "core_physics_mechanism": "Wind energy conversion to mechanical energy via windmill and pulley system.",
+    "historical_materials_used": [
+      "windmill",
+      "pulleys",
+      "ropes"
+    ],
+    "source_reference": "synthetic, https://example.com/wind-powered-water-lift"
+  },
+  {
+    "seed_id": "SEED_012",
+    "domain": "agriculture",
+    "target_goal": "Extend the growing season in a chilly climate to allow year-round crop cultivation.",
+    "core_physics_mechanism": "Thermal mass heat retention using water-filled plastic bottles.",
+    "historical_materials_used": [
+      "plastic bottles",
+      "water",
+      "soil"
+    ],
+    "source_reference": "synthetic, https://example.com/plastic-bottle-greenhouse"
+  },
+  {
+    "seed_id": "SEED_013",
+    "domain": "agriculture",
+    "target_goal": "Provide electricity for small devices in off-grid areas without access to conventional power sources.",
+    "core_physics_mechanism": "Photovoltaic conversion of sunlight into electrical energy.",
+    "historical_materials_used": [
+      "solar panels",
+      "circuit components",
+      "batteries"
+    ],
+    "source_reference": "synthetic, https://example.com/solar-battery-charger"
+  },
+  {
+    "seed_id": "SEED_014",
+    "domain": "agriculture",
+    "target_goal": "Cook meals in arid regions without using scarce wood resources or producing indoor air pollution.",
+    "core_physics_mechanism": "Solar heat capture and retention using a glass-covered mud brick structure.",
+    "historical_materials_used": [
+      "mud bricks",
+      "glass",
+      "metal hinges"
+    ],
+    "source_reference": "synthetic, https://example.com/mudbrick-solar-oven"
+  },
+  {
+    "seed_id": "SEED_015",
+    "domain": "agriculture",
+    "target_goal": "Propel boats in riverine areas using durable and cost-effective paddles.",
+    "core_physics_mechanism": "Hydrodynamic force generated by paddle movement through water.",
+    "historical_materials_used": [
+      "discarded tires",
+      "wooden handles"
+    ],
+    "source_reference": "synthetic, https://example.com/tyre-paddle"
+  },
+  {
+    "seed_id": "SEED_016",
+    "domain": "healthcare",
+    "target_goal": "Provide clean drinking water in drought-prone areas without access to safe water sources.",
+    "core_physics_mechanism": "Filtration through layered media to remove impurities and pathogens.",
+    "historical_materials_used": [
+      "charcoal",
+      "sand",
+      "gravel",
+      "plastic container"
+    ],
+    "source_reference": "synthetic, https://example.com/charcoal-water-filter"
+  },
+  {
+    "seed_id": "SEED_017",
+    "domain": "healthcare",
+    "target_goal": "Provide sanitation in densely populated areas without relying on water-based systems.",
+    "core_physics_mechanism": "Biological decomposition of waste using aerobic composting.",
+    "historical_materials_used": [
+      "sawdust",
+      "ash",
+      "lime"
+    ],
+    "source_reference": "synthetic, https://example.com/composting-toilet"
+  },
+  {
+    "seed_id": "SEED_018",
+    "domain": "healthcare",
+    "target_goal": "Keep perishables cool without electricity in hot climates.",
+    "core_physics_mechanism": "Conversion of solar energy into electrical energy to power a cooling system.",
+    "historical_materials_used": [
+      "solar panel",
+      "small battery",
+      "insulated box"
+    ],
+    "source_reference": "synthetic, https://example.com/solar-refrigerator"
+  },
+  {
+    "seed_id": "SEED_019",
+    "domain": "healthcare",
+    "target_goal": "Provide safe drinking water in flood-prone areas where traditional filtration systems are unavailable.",
+    "core_physics_mechanism": "Filtration through layers of charcoal, sand, and gravel to remove contaminants.",
+    "historical_materials_used": [
+      "mudbrick",
+      "charcoal",
+      "sand",
+      "gravel"
+    ],
+    "source_reference": "synthetic, https://example.com/mudbrick-water-filter"
+  },
+  {
+    "seed_id": "SEED_020",
+    "domain": "healthcare",
+    "target_goal": "Provide clean drinking water by removing pathogens and impurities from surface water.",
+    "core_physics_mechanism": "Filtration through layers of sand, gravel, and biofilm to remove contaminants.",
+    "historical_materials_used": [
+      "sand",
+      "gravel",
+      "biofilm"
+    ],
+    "source_reference": "synthetic, https://example.com/bio-sand-filter"
+  },
+  {
+    "seed_id": "SEED_021",
+    "domain": "construction",
+    "target_goal": "Reduce the time and effort needed for washing clothes in off-grid areas without electricity.",
+    "core_physics_mechanism": "Mechanical energy transfer through a belt and pulley system to rotate a drum.",
+    "historical_materials_used": [
+      "bicycle",
+      "drum",
+      "belt",
+      "pulley"
+    ],
+    "source_reference": "synthetic, https://example.com/bicycle-washing-machine"
+  },
+  {
+    "seed_id": "SEED_022",
+    "domain": "construction",
+    "target_goal": "Provide lighting in homes without access to electricity in densely populated slums.",
+    "core_physics_mechanism": "Refraction of sunlight through water-filled plastic bottles to disperse light.",
+    "historical_materials_used": [
+      "clear plastic bottle",
+      "water",
+      "bleach"
+    ],
+    "source_reference": "synthetic, https://example.com/plastic-bottle-solar-bulb"
+  },
+  {
+    "seed_id": "SEED_023",
+    "domain": "construction",
+    "target_goal": "Manage urban paper waste by converting it into usable fuel to reduce landfill accumulation.",
+    "core_physics_mechanism": "Compression and drying of paper fibers to form solid fuel blocks.",
+    "historical_materials_used": [
+      "paper",
+      "water",
+      "sawdust"
+    ],
+    "source_reference": "synthetic, https://example.com/paper-briquettes"
+  },
+  {
+    "seed_id": "SEED_024",
+    "domain": "construction",
+    "target_goal": "Construct durable and earthquake-resistant walls in earthquake-prone regions without using traditional bricks or concrete.",
+    "core_physics_mechanism": "Structural stability through interlocking and weight distribution of sand-filled plastic bottles bound with mud.",
+    "historical_materials_used": [
+      "plastic bottles",
+      "sand",
+      "soil",
+      "mud"
+    ],
+    "source_reference": "synthetic, https://example.com/bottle-brick-construction"
+  },
+  {
+    "seed_id": "SEED_025",
+    "domain": "construction",
+    "target_goal": "Reduce wood consumption and indoor air pollution in rural cooking practices.",
+    "core_physics_mechanism": "Heat retention through thermal mass of clay and sand.",
+    "historical_materials_used": [
+      "clay",
+      "sand",
+      "wood"
+    ],
+    "source_reference": "synthetic, https://example.com/mud-stove"
+  },
+  {
+    "seed_id": "SEED_026",
+    "domain": "construction",
+    "target_goal": "Provide hot water in high-altitude regions without relying on wood or coal.",
+    "core_physics_mechanism": "Solar energy absorption and heat transfer through black-painted pipes enclosed in a glass-covered box.",
+    "historical_materials_used": [
+      "black-painted pipes",
+      "glass-covered box",
+      "solar energy"
+    ],
+    "source_reference": "synthetic, https://example.com/solar-powered-water-heater"
+  },
+  {
+    "seed_id": "SEED_027",
+    "domain": "construction",
+    "target_goal": "Create durable and lightweight furniture using recycled materials.",
+    "core_physics_mechanism": "Compression and adhesion of paper fibers using glue to form a solid structure.",
+    "historical_materials_used": [
+      "recycled newspapers",
+      "glue",
+      "paper mache"
+    ],
+    "source_reference": "synthetic, https://example.com/paper-mache-furniture"
+  },
+  {
+    "seed_id": "SEED_028",
+    "domain": "construction",
+    "target_goal": "Provide portable and reliable lighting in refugee camps without access to stable electricity.",
+    "core_physics_mechanism": "Electrical energy from batteries powers LED lights through a simple circuit.",
+    "historical_materials_used": [
+      "jerry can",
+      "LED lights",
+      "simple circuit"
+    ],
+    "source_reference": "synthetic, https://example.com/jerry-can-lantern"
+  },
+  {
+    "seed_id": "SEED_029",
+    "domain": "street_vending",
+    "target_goal": "Reduce plastic waste in fresh produce packaging using sustainable materials.",
+    "core_physics_mechanism": "Biodegradable material properties of banana leaves used for packaging.",
+    "historical_materials_used": [
+      "banana leaves"
+    ],
+    "source_reference": "synthetic, https://example.com/banana-leaf-packaging"
+  },
+  {
+    "seed_id": "SEED_030",
+    "domain": "street_vending",
+    "target_goal": "Provide affordable and durable footwear for rural communities using available waste materials.",
+    "core_physics_mechanism": "Mechanical cutting and shaping of rubber to form durable soles.",
+    "historical_materials_used": [
+      "discarded tires",
+      "recycled fabric",
+      "simple tools"
+    ],
+    "source_reference": "synthetic, https://example.com/tyre-sandals"
+  },
+  {
+    "seed_id": "SEED_031",
+    "domain": "street_vending",
+    "target_goal": "Charge electronic devices without access to reliable electricity.",
+    "core_physics_mechanism": "Kinetic energy conversion through pedaling to generate electricity.",
+    "historical_materials_used": [
+      "pedal mechanism",
+      "generator",
+      "laptops"
+    ],
+    "source_reference": "synthetic, https://example.com/foot-powered-computer"
+  },
+  {
+    "seed_id": "SEED_032",
+    "domain": "street_vending",
+    "target_goal": "Provide radio access in remote areas without electricity.",
+    "core_physics_mechanism": "Mechanical energy from cranking converted to electrical energy via a dynamo.",
+    "historical_materials_used": [
+      "old radio parts",
+      "repurposed bicycle dynamo",
+      "recycled materials"
+    ],
+    "source_reference": "synthetic, https://example.com/hand-crank-radio"
+  },
+  {
+    "seed_id": "SEED_033",
+    "domain": "street_vending",
+    "target_goal": "Charge mobile phones in remote villages where electricity is scarce.",
+    "core_physics_mechanism": "Wind energy conversion into electrical energy using a turbine and electromagnetic induction.",
+    "historical_materials_used": [
+      "old wind-up toys",
+      "copper wire",
+      "magnets"
+    ],
+    "source_reference": "synthetic, https://example.com/wind-powered-charger"
+  },
+  {
+    "seed_id": "SEED_034",
+    "domain": "street_vending",
+    "target_goal": "Provide an affordable and eco-friendly transportation alternative in crowded urban areas.",
+    "core_physics_mechanism": "Structural integrity and flexibility of bamboo combined with mechanical parts from bicycles.",
+    "historical_materials_used": [
+      "bamboo",
+      "salvaged bicycle parts",
+      "metal fasteners"
+    ],
+    "source_reference": "synthetic, https://example.com/bamboo-bicycle"
+  },
+  {
+    "seed_id": "SEED_035",
+    "domain": "street_vending",
+    "target_goal": "Provide an eco-friendly alternative to plastic disposable plates for dining at cultural festivals.",
+    "core_physics_mechanism": "Mechanical pressing of leaves into plate shapes using pressure and heat.",
+    "historical_materials_used": [
+      "Leaves from local trees",
+      "Water for cleaning",
+      "Pressing machine"
+    ],
+    "source_reference": "synthetic, https://example.com/leaf-plate"
+  },
+  {
+    "seed_id": "SEED_036",
+    "domain": "street_vending",
+    "target_goal": "Reduce plastic waste in packaging by providing an eco-friendly alternative.",
+    "core_physics_mechanism": "Biodegradation of cassava starch film when exposed to natural environmental conditions.",
+    "historical_materials_used": [
+      "cassava starch",
+      "flexible film"
+    ],
+    "source_reference": "synthetic, https://example.com/biodegradable-packaging"
+  },
+  {
+    "seed_id": "SEED_037",
+    "domain": "agriculture",
+    "target_goal": "Provide a sustainable alternative to synthetic ropes for agricultural use.",
+    "core_physics_mechanism": "Mechanical twisting of coir fibers to increase tensile strength.",
+    "historical_materials_used": [
+      "coconut husks",
+      "coir",
+      "twisting tools"
+    ],
+    "source_reference": "synthetic, https://example.com/coconut-husk-rope"
+  },
+  {
+    "seed_id": "SEED_038",
+    "domain": "agriculture",
+    "target_goal": "Preserve food without electricity in arid regions to ensure food security and reduce waste.",
+    "core_physics_mechanism": "Evaporative cooling through water evaporation from sand between clay pots.",
+    "historical_materials_used": [
+      "clay pot",
+      "sand",
+      "water"
+    ],
+    "source_reference": "synthetic, https://example.com/pot-in-pot-cooler"
+  },
+  {
+    "seed_id": "SEED_039",
+    "domain": "agriculture",
+    "target_goal": "Wash clothes without electricity in remote areas.",
+    "core_physics_mechanism": "Mechanical rotation driven by human pedaling transfers motion to a drum for agitation.",
+    "historical_materials_used": [
+      "bicycle",
+      "rotating drum",
+      "pedals"
+    ],
+    "source_reference": "synthetic, https://example.com/pedal-powered-washing-machine"
+  },
+  {
+    "seed_id": "SEED_040",
+    "domain": "agriculture",
+    "target_goal": "Irrigate crops efficiently without relying on traditional electric or fuel-powered pumps.",
+    "core_physics_mechanism": "Conversion of solar energy into electrical energy to power a water pump.",
+    "historical_materials_used": [
+      "solar panels",
+      "water pump",
+      "irrigation pipes"
+    ],
+    "source_reference": "synthetic, https://example.com/solar-powered-irrigation"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "total_models": 1,
+  "total_problems": 400,
+  "formats": [
+    "mcq",
+    "opengen"
+  ],
+  "completions_per_model": {
+    "gpt-5.5": 2
+  }
+}

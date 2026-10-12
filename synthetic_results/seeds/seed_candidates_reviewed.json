@@ -1,0 +1,61 @@
+[
+  {
+    "seed_id": "SEED_001",
+    "domain": "agriculture",
+    "target_goal": "Preserve vegetables and fruits without using electricity in hot climates.",
+    "core_physics_mechanism": "Evaporative cooling through water evaporation from clay surfaces.",
+    "historical_materials_used": [
+      "clay",
+      "water"
+    ],
+    "source_reference": "manual/mitticool"
+  },
+  {
+    "seed_id": "SEED_002",
+    "domain": "agriculture",
+    "target_goal": "Enable small farmers to plough, weed, and sow without the expense of a traditional tractor.",
+    "core_physics_mechanism": "Mechanical conversion of motorcycle power to agricultural tool operation.",
+    "historical_materials_used": [
+      "Royal Enfield Bullet motorcycle",
+      "toolbar attachment",
+      "ploughing tools"
+    ],
+    "source_reference": "manual/bullet-santi"
+  },
+  {
+    "seed_id": "SEED_003",
+    "domain": "healthcare",
+    "target_goal": "Wash and spin-dry clothes without using electricity.",
+    "core_physics_mechanism": "Mechanical rotation via pedaling to agitate and spin clothes.",
+    "historical_materials_used": [
+      "aluminum cylinder",
+      "iron mesh cylinder",
+      "bicycle mechanism"
+    ],
+    "source_reference": "manual/pedal-washing-machine"
+  },
+  {
+    "seed_id": "SEED_004",
+    "domain": "agriculture",
+    "target_goal": "Pump water from shallow wells for irrigating small agricultural plots during the dry winter season.",
+    "core_physics_mechanism": "Wind energy converted to mechanical energy via rotary motion to drive a hand pump.",
+    "historical_materials_used": [
+      "bamboo",
+      "mechanical linkage",
+      "hand pump"
+    ],
+    "source_reference": "manual/bamboo-windmill"
+  },
+  {
+    "seed_id": "SEED_005",
+    "domain": "agriculture",
+    "target_goal": "Safely scale tall and slippery areca nut trees without falling.",
+    "core_physics_mechanism": "Mechanical advantage through alternating grip and body weight distribution.",
+    "historical_materials_used": [
+      "seat",
+      "loops",
+      "tree trunk"
+    ],
+    "source_reference": "manual/tree-climber"
+  }
+]
